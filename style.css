@@ -143,3 +143,10 @@ label{
     display: flex;
     justify-content: space-between;
 }
+
+
+@media screen and (min-width: 900px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
+}
